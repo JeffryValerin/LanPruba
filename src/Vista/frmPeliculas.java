@@ -202,12 +202,12 @@ public class frmPeliculas extends javax.swing.JDialog {
 
     private void btnEliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEliminarActionPerformed
         // TODO add your handling code here:
-        if(tblPeliculas.getSelectedRow() !=-1){
-            if(almacenaPelicula.EliminarPeli(pos, peliObj)){
+       // if(tblPeliculas.getSelectedRow() !=-1){
+       //    if(almacenaPelicula.EliminarPeli(pos, peliObj)){
                 
                 
-            }
-        }
+       //     }
+        //}
     }//GEN-LAST:event_btnEliminarActionPerformed
 
     private void txtBuscarKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtBuscarKeyReleased
